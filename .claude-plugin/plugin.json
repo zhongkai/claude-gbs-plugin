@@ -7,7 +7,7 @@
     "email": "kaizhongfan@gmail.com",
     "url": "https://github.com/zhongkai"
   },
-  "homepage": "https://github.com/zhongkai/claude-gbs-plugin",
+  "homepage": "https://github.com/gbs-toolkit/claude-gbs-plugin",
   "license": "MIT",
   "keywords": ["gb-studio", "gameboy", "mcp", "skills"]
 }
