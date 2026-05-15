@@ -33,7 +33,7 @@ If your client doesn't expand `${VAR}` in the plugin's `.mcp.json` at runtime, o
 
 ## Develop
 
-Skills are plain Markdown under `skills/<name>/SKILL.md` with YAML frontmatter — edit and reload. The MCP server source lives in a sibling repo at [`gbs-toolkit/gbs-toolkit-mcp-server`](https://github.com/gbs-toolkit/gbs-toolkit-mcp-server) and is published to npm as [`@gbs-toolkit/mcp-server`](https://www.npmjs.com/package/@gbs-toolkit/mcp-server).
+Skills are plain Markdown under `skills/<name>/SKILL.md` with YAML frontmatter — edit and reload. The MCP server source lives in a sibling repo at [`gbs-toolkit/mcp-server`](https://github.com/gbs-toolkit/mcp-server) and is published to npm as [`@gbs-toolkit/mcp-server`](https://www.npmjs.com/package/@gbs-toolkit/mcp-server).
 
 To use a local checkout of the MCP server instead of the npm release, change `.mcp.json` `args` to point at a local path:
 
