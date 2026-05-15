@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "gbs": {
+      "command": "npx",
+      "args": ["-y", "@gbs-toolkit/mcp-server"],
+      "env": {
+        "GBS_PROJECT_ROOT": "${GBS_PROJECT_ROOT}",
+        "SPRITE_PROVIDER": "${SPRITE_PROVIDER}",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}",
+        "REPLICATE_API_TOKEN": "${REPLICATE_API_TOKEN}",
+        "FAL_KEY": "${FAL_KEY}",
+        "GBS_CLI_PATH": "${GBS_CLI_PATH}",
+        "GBS_MGBA_RUNNER": "${GBS_MGBA_RUNNER}"
+      }
+    }
+  }
+}
